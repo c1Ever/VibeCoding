@@ -55,13 +55,15 @@ function printSteps(height) {
             continue
         }   else if (step === 10) {
             console.log(`Ступень ${step}`)
-            console.log(`Дальше лестница не построена`)
             stepCount += 1
             break
         }   else {
             console.log(`Ступень ${step}`)
         }
         stepCount += 1
+    }
+    if (height > 10) {
+        console.log(`Дальше лестница не построена`)
     }
     console.log(`Всего построено: ${stepCount}`)
 }
