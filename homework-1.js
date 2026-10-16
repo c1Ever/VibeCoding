@@ -69,10 +69,10 @@ function printSteps(height) {
 async function main() {
   const rl = readline.createInterface({ input: process.stdin, output: process.stdout })
 
-  console.log('Выберете задачу:')
-  console.log('1 – билетная касса')
-  console.log('2 – доставка заказа')
-  console.log('3 – лестница')
+  console.log('Выберите задачу:')
+  console.log('1 — билетная касса')
+  console.log('2 — доставка заказа')
+  console.log('3 — лестница')
 
   const action = Number(await rl.question('Ваш выбор: '))
 
